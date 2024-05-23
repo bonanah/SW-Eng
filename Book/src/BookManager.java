@@ -11,7 +11,7 @@ public class BookManager {
 		String title;
 		String author;
 		int publishedYear;
-		
+
 		private ArrayList<BookInfo> bookDB; // DB
 		
 		// 생성자 
@@ -29,7 +29,6 @@ public class BookManager {
 			info.publishedYear = publishedYear;
 			
 			bookDB.add(info);
-			
 		}
 
 		public int testAddBook(int id, String title, String author, int publishedYear) {
